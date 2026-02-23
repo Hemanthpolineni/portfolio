@@ -36,7 +36,10 @@ color: "#fff",
  }}
 >
 <Container maxWidth="lg">
-<Typography variant="h3" sx={{ fontWeight: "bold" }}>
+<Typography variant="h3" sx={{ fontWeight: "bold" ,
+                         transition: "0.4s",
+                            "&:hover": { color: "#00bcd4" },
+}}>
  My Projects
 </Typography>
 
